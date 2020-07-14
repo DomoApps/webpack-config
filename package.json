@@ -1,5 +1,5 @@
 {
-  "name": "@appteam6/webpack-config",
+  "name": "@domoapps/webpack-config",
   "version": "7.1.0",
   "files": [
     "dist"
