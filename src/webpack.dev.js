@@ -7,8 +7,7 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const ForkTsCheckerNotifierWebpackPlugin = require('fork-ts-checker-notifier-webpack-plugin');
 const paths = require('./helpers/paths');
 const ip = require('ip');
-const optionalRequire = require('optional-require')(require);
-const { Proxy } = optionalRequire('@domoinc/ryuu-proxy') || { Proxy: null };
+const { Proxy } = require('@domoinc/ryuu-proxy');
 const portfinder = require('portfinder-sync');
 
 const BASE_PORT = 3000;

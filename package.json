@@ -1,6 +1,6 @@
 {
   "name": "@appteam6/webpack-config",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "files": [
     "dist"
   ],
@@ -44,7 +44,6 @@
     "html-webpack-plugin": "^3.2.0",
     "ip": "^1.1.5",
     "node-sass": "^4.9.3",
-    "optional-require": "^1.0.0",
     "portfinder-sync": "^0.0.2",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^0.5.1",
@@ -56,10 +55,8 @@
   },
   "peerDependencies": {
     "typescript": "^2.0.0 || ^3.0.0",
-    "webpack": "^4.0.0"
-  },
-  "optionalDependencies": {
-    "@domoinc/ryuu-proxy": "^3.1.0"
+    "webpack": "^4.0.0",
+    "@domoinc/ryuu-proxy": "^4.0.5"
   },
   "gitHead": "a35f5801f36dd0e3836a1b831708e3cf6d4fcdd2"
 }
