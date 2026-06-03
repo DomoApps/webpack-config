@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^1.10.1",
+    "rollup": "^2.80.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
